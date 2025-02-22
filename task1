@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Mahendra Singh Dhoni</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .section {
+            flex: 1;
+            margin: 20px;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .section img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            color: #4CAF50;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 30px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tribute to Mahendra Singh Dhoni</h1>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            <div class="section">
+                <img src="https://i.pinimg.com/736x/93/ee/cc/93eeccf2407f19e2cf21604df8c37fa6.jpg">
+                <h2>Introduction</h2>
+                <p>Mahendra Singh Dhoni Indian professional cricketer who plays as a right-handed batter and a wicket-keeper .</p>
+            </div>
+            
+            <div class="section">
+                <h2>Admirable Qualities</h2>
+                <img src="https://i.pinimg.com/736x/ed/49/cf/ed49cfde9b9140c133b4b4091524ca31.jpg">
+                <p>Dhoni has captained the most international matches and is the most successful Indian captain.He also led the teams that won the Asia Cup in 2010, 2016 and was a member of the title winning squad in 2018.</p>
+            </div>
+
+            <div class="section">
+                <img src="https://www.itl.cat/pngfile/big/62-621819_mahendra-singh-dhoni-hd-wallpapers-ultra-hd-dhoni.jpg">
+                <h2>Impact and Legacy</h2>
+                <p>Born in Ranchi, Dhoni made his first class debut for Bihar in 1999. He made his debut for the Indian cricket team on 23 December 2004 in an ODI against Bangladesh and played his first test a year later against Sri Lanka.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Made with love and respect for Mahendra Singh Dhoni. <a href="#">Learn More</a></p>
+    </footer>
+</body>
+</html>
